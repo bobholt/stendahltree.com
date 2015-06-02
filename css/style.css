@@ -1,0 +1,135 @@
+@import url('reset.css');
+
+body {
+/*    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+	font-family: Trebuchet, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+    margin: 0;
+    background-color: #5077A2;
+}
+p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.wrapper {
+    position: relative;
+    width: 860px;
+    height: 820px;
+    margin: 0 auto;
+    background: #5077A2 url(../images/bg.jpg) no-repeat -60px 30px;
+}
+.header {
+    height: 143px;
+    background-color: #fff;
+    padding: 40px 0;
+    border: solid 2px #000;
+}
+
+h1 {
+    margin-left: 50px;
+    background: Transparent url(../images/logo.gif) no-repeat 0 0;
+    text-indent: -9999px;
+    width: 300px;
+    height: 143px;
+    text-align: center;
+    font-size: 3em;
+    float: left;
+}
+h3 {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1em;
+    float: right;
+    width: 300px;
+    margin-right: 50px;
+}
+  h3 a:link,
+  h3 a:visited {
+    color:#5077A2;
+    text-decoration:none;
+  }
+  h3 a:hover,
+  h3 a:active {
+    text-decoration:underline;
+  }
+
+h2 {
+    float: right;
+    margin-top: -12px;
+    margin-right: 50px;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1em;
+}
+.services {
+	margin-top:20px;
+	float:left;
+}
+.professional {
+	float: right;
+	text-align:right;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+	.services ul,
+	.professional ul {
+		margin-top:.25em;
+		line-height: 1.5em;
+	}
+.owner {
+	text-align: center;
+	position: absolute;
+	top: 625px;
+	left: 195px;
+}
+.sideImage1 {
+	clear: both;
+	float: left;
+	margin: 30px 0;
+}
+.sideImage2 {
+	float: right;
+	margin: 0;
+}
+	.sideImage1,
+	.sideImage2 {
+		border: solid 2px #003;
+	}
+address {
+    font-style: normal;
+    margin-top: .5em;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 860px;
+    background-color: #000;
+    color: #fff;
+    height: 121px;
+    padding-top: 5px;
+    text-align: center;
+	  line-height: 1.33em;
+}
+    #company {
+        position: absolute;
+        display: block;
+        left: 10px;
+        top: 5px;
+    }
+    #phone {
+        position: absolute;
+        display: block;
+        right: 10px;
+        top: 5px;
+    }
+	.footer a:link,
+	.footer a:visited,
+	.footer a:hover,
+	.footer a:active {
+		color: #fff;
+	}
+.clear {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;	
+}
